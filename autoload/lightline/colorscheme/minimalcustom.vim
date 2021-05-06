@@ -36,4 +36,4 @@ let s:p.tabline.tabsel = [ [ s:black, s:blue ] ]
 let s:p.tabline.middle = [ [ s:blue, s:gray ] ]
 let s:p.tabline.right = [ [ s:black, s:blue ] ]
 
-let g:lightline#colorscheme#darcula#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#minimalcustom#palette = lightline#colorscheme#flatten(s:p)
