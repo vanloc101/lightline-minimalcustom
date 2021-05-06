@@ -1,3 +1,11 @@
+" =============================================================================
+" Filename: autoload/lightline/colorscheme/minimalcustom.vim
+" Version: 0.1
+" Author: Chu Van Loc
+" License: MIT License
+" Last Change: 2021/05/10 10:24:28.
+" =============================================================================
+
 let s:black = [ '#262626', 'NONE' ]
 let s:gray = [ '#262626', 'NONE' ]
 let s:white = [ '#a9b7c6', 'NONE' ]
