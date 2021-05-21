@@ -1,7 +1,8 @@
 " =============================================================================
 " Filename: autoload/lightline/colorscheme/minimalcustom.vim
-" Version: 0.1
+" Email: donbb6823@gmail.com
 " Author: Chu Van Loc
+" Version: 0.1
 " License: MIT License
 " Last Change: 2021/05/10 10:24:28.
 " =============================================================================
