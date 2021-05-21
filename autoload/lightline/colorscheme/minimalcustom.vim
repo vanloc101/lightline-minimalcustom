@@ -11,28 +11,6 @@ let s:black = [ '#262626', 'NONE' ]
 let s:grey = [ '#999696', 'NONE' ]
 let s:blue = [ '#a9b7c6', 'NONE' ]
 
-let g:lightline.component_function = { 'lineinfo': 'LightlineLineinfo' }
-function! LightlineLineinfo() abort
-    if winwidth(0) < 86
-        return ''
-    endif
-
-    let l:current_line = printf('%-3s', line('.'))
-    let l:max_line = printf('%-3s', line('$'))
-    let l:lineinfo = ' ' . l:current_line . '/' . l:max_line
-    return l:lineinfo
-endfunction
-
-let g:lightline.component_function = { 'mode': 'LightlineMode' }
-function! LightlineMode() abort
-    let ftmap = {
-                \ 'coc-explorer': 'EXPLORER',
-                \ 'fugitive': 'FUGITIVE',
-                \ 'tagbar': 'TAGBAR'
-                \ }
-    return get(ftmap, &filetype, lightline#mode())
-endfunction
-
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:black, s:grey ], [ s:grey, s:black ] ]
 let s:p.normal.right = [ [ s:black, s:grey ], [ s:grey, s:black ] ]
