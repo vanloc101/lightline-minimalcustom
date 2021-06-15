@@ -7,7 +7,7 @@
 " Last Change: 2021/05/10 10:24:28.
 " =============================================================================
 
-let s:black = [ '#333333', 'NONE' ]
+let s:black = [ '#262626', 'NONE' ]
 let s:grey = [ '#999696', 'NONE' ]
 let s:blue = [ '#a9b7c6', 'NONE' ]
 
@@ -22,7 +22,7 @@ let s:p.inactive.left =  [ [ s:grey, s:black ], [ s:grey, s:black ] ]
 let s:p.inactive.right = [ [ s:black, s:black ], [ s:black, s:black ] ]
 let s:p.inactive.middle = [ [ s:black, s:black ] ]
 
-let s:p.insert.left = [ [ s:black, s:grey ], [ s:grey, s:black ] ] 
+let s:p.insert.left = [ [ s:black, s:grey ], [ s:grey, s:black ] ]
 let s:p.insert.right = [ [ s:black, s:grey ], [ s:grey, s:black ] ]
 
 let s:p.replace.left = [ [ s:black, s:grey ], [ s:grey, s:black ] ]
