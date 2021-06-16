@@ -5,14 +5,13 @@
 " =============================================================================
 
 let s:black = [ '#262626', 'NONE' ]
-" let s:grey = [ '#999696', 'NONE' ]
 let s:grey = [ '#c0bebe', 'NONE' ]
-let s:blue = [ '#a9b7c6', 'NONE' ]
+let s:cyan = [ '#b1becb', 'NONE' ]
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:black, s:grey ], [ s:grey, s:black ] ]
 let s:p.normal.right = [ [ s:black, s:grey ], [ s:grey, s:black ] ]
-let s:p.normal.middle = [ [ s:blue, s:black ] ]
+let s:p.normal.middle = [ [ s:cyan, s:black ] ]
 let s:p.normal.error = [ [ s:grey, s:black ] ]
 let s:p.normal.warning = [ [ s:grey, s:black ] ]
 
